@@ -9,10 +9,6 @@ class Dog
     save
   end
   
-  def self.count
-    @@dog_count 
-  end
-  
   def self.all
     @@all
   end

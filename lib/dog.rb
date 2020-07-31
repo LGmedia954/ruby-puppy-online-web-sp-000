@@ -18,7 +18,8 @@ class Dog
     @@dog_count 
   end
   
-  def self.all 
+  def self.all
+    
   
   
 end

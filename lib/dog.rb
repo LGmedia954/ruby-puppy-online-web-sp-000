@@ -10,7 +10,6 @@ class Dog
     @name = name
     @dog = dog
     @@dog_count += 1
-    
     @@all << self.dog
     
   end

@@ -1,8 +1,6 @@
 class Dog
   
   attr_accessor :name
-  
-  @@dog_count = 0
 
   @@all = []
   

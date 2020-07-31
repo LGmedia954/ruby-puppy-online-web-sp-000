@@ -11,7 +11,7 @@ class Dog
     @dog = dog
     @@dog_count += 1
     @@all << self.dog
-    
+ 
   end
   
   def self.count

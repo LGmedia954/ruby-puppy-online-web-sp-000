@@ -7,6 +7,7 @@ class Dog
   @@all = []
   
   def initialize(name)
+    @name = name
     @@dog_count += 1
     @dog = dog
     @@all << self.dog

@@ -7,6 +7,8 @@ class Dog
   
   def initialize(name)
     @@dog_count += 1
+    @dog = dog
+    @@all << @dog
     
   end
   

@@ -1,5 +1,7 @@
 class Dog
   
+  @@dog_count = []
+  
   def initialize
     
     
